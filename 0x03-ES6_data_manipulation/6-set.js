@@ -1,6 +1,6 @@
 export default function setFromArray(arr) {
   if (!(Array.isArray(arr))) {
-    return []
+    return [];
   }
   const set1 = new Set();
   // eslint-disable-next-line no-plusplus

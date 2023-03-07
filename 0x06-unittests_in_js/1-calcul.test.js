@@ -65,6 +65,7 @@ describe('calculateNumberDIVIDE', () => {
     assert.strictEqual(calculateNumber('DIVIDE', 3.5, 1.5), 2);
     assert.strictEqual(calculateNumber('DIVIDE', 2, 3.7), 0.5);
     assert.strictEqual(calculateNumber('DIVIDE', 11.5, 2.3), 6);
+    assert.strictEqual(calculateNumber('DIVIDE', 11.5, 0), 'Error');
 
   });
   it('assert second number rounding', () => {

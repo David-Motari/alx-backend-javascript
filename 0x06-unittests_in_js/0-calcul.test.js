@@ -9,6 +9,9 @@ describe('calculateNumber', () => {
     assert.strictEqual(calculateNumber(2, 3.5), 6);
     assert.strictEqual(calculateNumber(3.5, 2), 6);
     assert.strictEqual(calculateNumber(3.5, 2.5), 7);
+    assert.strictEqual(calculateNumber(2, 3.7), 6);
+    assert.strictEqual(calculateNumber(2, 11.5), 14);
+
   });
   it('negative numbers', () => {
     assert.strictEqual(calculateNumber(-2, 4), 2);

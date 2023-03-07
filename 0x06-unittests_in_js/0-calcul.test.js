@@ -13,6 +13,9 @@ describe('calculateNumber', () => {
     assert.strictEqual(calculateNumber(2, 11.5), 14);
 
   });
+  it('assert second number rounding', () => {
+    assert.strictEqual(calculateNumber(1, 3.2), 4);
+  });
   it('negative numbers', () => {
     assert.strictEqual(calculateNumber(-2, 4), 2);
     assert.strictEqual(calculateNumber(2, -3.5), -1);
